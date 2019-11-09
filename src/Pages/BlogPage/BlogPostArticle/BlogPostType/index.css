@@ -1,0 +1,26 @@
+.BlogPostType {
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.BlogPostTypeCreative {
+    background: #FF5714;
+}
+
+.BlogPostTypeTech {
+    background: #FFBB18;
+}
+
+.BlogPostTypeLearning {
+    background: #F3FF0A;
+}
+
+.BlogPostTypeExistential {
+    background: #5CFF6B;
+}
+
+.BlogPostTypePersonal {
+    background: #1AE7FF;
+}
