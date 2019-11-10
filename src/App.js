@@ -37,10 +37,6 @@ class App extends Component {
   }
 
   render() {
-    // console.log(Articles[0].title());
-    // console.log(Articles[0].type());
-    // console.log(Articles[0].date());
-    // console.log(Articles[0].content());
     return (
       <div className="App">
         <BlogPage currentPage={this.state.currentPage}
