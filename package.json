@@ -1,7 +1,7 @@
 {
   "name": "abhisworld",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": "https://abhis.world/",
   "private": true,
   "dependencies": {
     "node-sass": "^4.13.0",
