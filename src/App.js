@@ -8,52 +8,39 @@ import ArticlePage from './Pages/ArticlePage';
 
 import Articles from "./registry";
 
+import {
+  withRouter
+} from 'react-router-dom'
+
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      currentPage: 0,
-      identifier:null
-    }
   }
 
   article_action(identifier) {
-    this.setState({
-      currentPage: 2,
-      identifier: identifier
-    });
+    this.props.history.push('/'+identifier);
   }
 
   reset_action() {
-    this.setState({
-      currentPage: 1
-    });
-  }
-
-  updatePage(index) {
-    this.setState({
-      currentPage: index
-    });
+    this.props.history.push('/blog');
   }
 
   render() {
     return (
       <div className="App">
-        <BlogPage currentPage={this.state.currentPage}
-                  updatePage={this.updatePage.bind(this)}
+        <BlogPage currentPage={this.props.currentPage}
                   article_action={this.article_action.bind(this)}
                   articles={Articles} />
-        <LandingPage currentPage={this.state.currentPage}
-                     updatePage={this.updatePage.bind(this)}/>
-        <LandingTransition currentPage={this.state.currentPage}/>
-        <ArticlePage currentPage={this.state.currentPage}
-                     updatePage={this.updatePage.bind(this)}
+        <LandingPage currentPage={this.props.currentPage}
+                     reset_action={this.reset_action.bind(this)}/>
+        <LandingTransition currentPage={this.props.currentPage}/>
+        <ArticlePage currentPage={this.props.currentPage}
                      reset_action={this.reset_action.bind(this)}
-                     identifier={this.state.identifier}
+                     identifier={this.props.identifier}
                      article={Articles}/>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);

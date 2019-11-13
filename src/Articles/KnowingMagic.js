@@ -3,6 +3,10 @@ import { ArticleType, ArticleTemplate } from "./ArticleTemplate"
 import "./ArticleTemplate.css";
 
 export default class KnowingMagic extends ArticleTemplate {
+  identifier() {
+    return "knowing_magic";
+  }
+  
   title() {
     return "The Perils of Magic";
   }

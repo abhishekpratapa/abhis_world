@@ -3,6 +3,10 @@ import { ArticleType, ArticleTemplate } from "./ArticleTemplate"
 import "./ArticleTemplate.css";
 
 export default class Communication extends ArticleTemplate {
+  identifier() {
+    return "communication";
+  }
+  
   title() {
     return "Communication";
   }

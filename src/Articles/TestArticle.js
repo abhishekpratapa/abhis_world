@@ -3,6 +3,10 @@ import React from 'react';
 import { ArticleType, ArticleTemplate } from "./ArticleTemplate"
 
 export default class TestArticle extends ArticleTemplate {
+  identifier() {
+    return "test_article";
+  }
+
   title() {
     return "Test Article";
   }

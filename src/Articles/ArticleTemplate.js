@@ -10,15 +10,6 @@ export const ArticleType = Object.freeze({
 
 
 export class ArticleTemplate {
-  constructor () {
-    this.identifier_value 
-        = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15);
-  }
-  
-  identifier() {
-    return this.identifier_value;
-  }
-
   /*
   return "Article Title";
   */

@@ -28,7 +28,7 @@ class LandingPage extends Component {
 
           {/* This is the enter button */}
           <div className={"LandingPageEnterButtonContainer"}>
-            <EnterButton  updatePage={this.props.updatePage.bind(this)} />
+            <EnterButton  reset_action={this.props.reset_action.bind(this)} />
           </div>
 
           {/* This is the social actions button */}

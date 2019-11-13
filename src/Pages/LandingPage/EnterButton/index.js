@@ -5,7 +5,7 @@ class EnterButton extends Component {
   render() {
     return (
       <button className={"EnterButton"}
-              onClick={this.props.updatePage.bind(this, 1)}>
+              onClick={this.props.reset_action.bind(this)}>
         ENTER
       </button>
     );
