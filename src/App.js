@@ -18,11 +18,11 @@ class App extends Component {
   }
 
   article_action(identifier) {
-    this.props.history.push( process.env.PUBLIC_URL + '/' + identifier);
+    this.props.history.push('/'+identifier);
   }
 
   reset_action() {
-    this.props.history.push( process.env.PUBLIC_URL + '/blog');
+    this.props.history.push('/blog');
   }
 
   render() {
