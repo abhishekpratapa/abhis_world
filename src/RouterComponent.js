@@ -35,7 +35,7 @@ class RouterComponent extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path={process.env.PUBLIC_URL + "/blog"} >
+          <Route path={ process.env.PUBLIC_URL + "/blog"} >
             <App currentPage={1} />
           </Route>
           {
