@@ -4,6 +4,7 @@ import Communication from "./Articles/Communication"
 import StatueOfDavid from "./Articles/StatueOfDavid"
 
 const MyArticles = [
+	new TestArticle(),
 	new StatueOfDavid(),
     new Communication(),
     new KnowingMagic()

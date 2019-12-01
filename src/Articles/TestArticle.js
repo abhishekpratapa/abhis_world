@@ -8,7 +8,7 @@ export default class TestArticle extends ArticleTemplate {
   }
 
   title() {
-    return "Test Article";
+    return "Animation";
   }
 
   date() {
@@ -28,7 +28,11 @@ export default class TestArticle extends ArticleTemplate {
   content() {
     return (
       <div>
-        Test Article Content
+        Yeay Animation!
+        <iframe className={"ArticleHypeAsset"}
+                height={400}
+                width={600}
+                src="/animations/button_animation/button_animation.html" />
       </div>
     );
   }
