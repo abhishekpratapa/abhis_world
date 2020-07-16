@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.484c8390.chunk.css",
-    "main.js": "/static/js/main.bec0b94c.chunk.js",
-    "main.js.map": "/static/js/main.bec0b94c.chunk.js.map",
+    "main.css": "/static/css/main.86c2350c.chunk.css",
+    "main.js": "/static/js/main.b19bc449.chunk.js",
+    "main.js.map": "/static/js/main.b19bc449.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b5d1efea.js",
     "runtime-main.js.map": "/static/js/runtime-main.b5d1efea.js.map",
-    "static/js/2.f1a75b1a.chunk.js": "/static/js/2.f1a75b1a.chunk.js",
-    "static/js/2.f1a75b1a.chunk.js.map": "/static/js/2.f1a75b1a.chunk.js.map",
+    "static/js/2.4dd95de5.chunk.js": "/static/js/2.4dd95de5.chunk.js",
+    "static/js/2.4dd95de5.chunk.js.map": "/static/js/2.4dd95de5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.720cf54dadacdac998a2a0777dc8e41e.js": "/precache-manifest.720cf54dadacdac998a2a0777dc8e41e.js",
+    "precache-manifest.793b90b6444b6cbdff02c21e79ffbda1.js": "/precache-manifest.793b90b6444b6cbdff02c21e79ffbda1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.484c8390.chunk.css.map": "/static/css/main.484c8390.chunk.css.map",
+    "static/css/main.86c2350c.chunk.css.map": "/static/css/main.86c2350c.chunk.css.map",
     "static/media/audio_alignment.png": "/static/media/audio_alignment.fc028c12.png",
     "static/media/blog.svg": "/static/media/blog.7f1cb658.svg",
     "static/media/books.svg": "/static/media/books.d270a999.svg",
@@ -24,6 +24,7 @@
     "static/media/mythical_man_month.png": "/static/media/mythical_man_month.b8da770a.png",
     "static/media/one_day_builds.svg": "/static/media/one_day_builds.a22fcd01.svg",
     "static/media/plants.svg": "/static/media/plants.a51026b2.svg",
+    "static/media/present.svg": "/static/media/present.86119d80.svg",
     "static/media/projects.svg": "/static/media/projects.ab06d77c.svg",
     "static/media/right_arrow.svg": "/static/media/right_arrow.c7407119.svg",
     "static/media/twitter.svg": "/static/media/twitter.2ee4ebab.svg",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b5d1efea.js",
-    "static/js/2.f1a75b1a.chunk.js",
-    "static/css/main.484c8390.chunk.css",
-    "static/js/main.bec0b94c.chunk.js"
+    "static/js/2.4dd95de5.chunk.js",
+    "static/css/main.86c2350c.chunk.css",
+    "static/js/main.b19bc449.chunk.js"
   ]
 }

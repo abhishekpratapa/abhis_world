@@ -5,6 +5,7 @@ import EnterButton from "../../Components/EnterButton";
 import SocialMedia from "../../Components/SocialMedia";
 
 import logo from '../../assets/logo.svg';
+import present from './assets/present.svg'
 
 import Main from '../../logos/Main';
 
@@ -13,10 +14,24 @@ class LandingPage extends Component {
     this.props.history.push('/menu');
   }
 
+  surprise() {
+    console.log("Surprise!!");
+  }
+
   render() {
     console.log(this.props);
     return (
       <div className={style.page}>
+        <div className={style.surprise_container}>
+          <div className={style.surprise} onClick={this.surprise.bind(this)}> 
+            <div>
+              <img src={present} />
+            </div>
+            <div className={style.surprise_text}>
+              Surprise Me 
+            </div>
+          </div>
+        </div>
         {/* This is the middle_container */}
         <div className={style.centered_modal}>
           {/* This is the title */}
@@ -33,6 +48,8 @@ class LandingPage extends Component {
           <div className={style.button}>
             <EnterButton onClick={this.enter_page.bind(this)}/>
           </div>
+
+
 
           {/* This is the social actions button */}
           <div className={style.social_media}>

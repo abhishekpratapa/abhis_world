@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-8" transform="translate(-73.000000, -92.000000)">
+            <g id="Group" transform="translate(73.000000, 91.961538)">
+                <ellipse id="Oval" fill="#BFB8A0" cx="5.5" cy="3.53846154" rx="3.5" ry="2.5"></ellipse>
+                <ellipse id="Oval" fill="#BFB8A0" cx="18.5" cy="3.53846154" rx="3.5" ry="2.5"></ellipse>
+                <rect id="Rectangle" fill="#D0021C" x="2" y="6.03846154" width="20" height="17" rx="2"></rect>
+                <rect id="Rectangle" fill="#D0021C" x="0" y="4.03846154" width="24" height="6" rx="2"></rect>
+                <rect id="Rectangle" fill="#FEE9A4" x="9" y="6.03846154" width="6" height="17"></rect>
+                <rect id="Rectangle" fill="#FEE9A4" x="9" y="4.03846154" width="6" height="6"></rect>
+                <rect id="Rectangle" fill="#FEE9A4" x="10" y="3.03846154" width="4" height="2"></rect>
+                <path d="M5.66666667,0.0384615385 C7.04715933,0.0384615385 8.49160377,1.00745379 10,2.94543828 L10,5.03846154 C8.25919606,4.11790237 6.92586273,3.53650702 6,3.29427549 C5.07413727,3.05204396 3.74080394,2.93576489 2,2.94543828 C3.06395178,1.00745379 4.28617401,0.0384615385 5.66666667,0.0384615385 Z" id="Rectangle" fill="#FEE9A4"></path>
+                <path d="M17.6666667,0.0384615385 C19.0471593,0.0384615385 20.4916038,1.00745379 22,2.94543828 L22,5.03846154 C20.2591961,4.11790237 18.9258627,3.53650702 18,3.29427549 C17.0741373,3.05204396 15.7408039,2.93576489 14,2.94543828 C15.0639518,1.00745379 16.286174,0.0384615385 17.6666667,0.0384615385 Z" id="Rectangle" fill="#FEE9A4" transform="translate(18.000000, 2.538462) scale(-1, 1) translate(-18.000000, -2.538462) "></path>
+                <line x1="2.5" y1="10.5384615" x2="21.5" y2="10.5384615" id="Line" stroke="#9F3341" stroke-linecap="square"></line>
+            </g>
+        </g>
+    </g>
+</svg>

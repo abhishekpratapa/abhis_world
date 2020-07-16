@@ -65,6 +65,28 @@
             animation: fadein 2s;
 }
 
+.surprise_container {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.surprise:hover {
+    opacity: 0.75;
+}
+
+.surprise {
+    display: flex;
+    font-family: Varela Round;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.surprise_text {
+    padding-left: 8px;
+}
+
 .title {
     font-family: Varela Round;
     font-style: normal;
