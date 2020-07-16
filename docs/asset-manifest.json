@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a670f1a.chunk.css",
+    "main.css": "/static/css/main.484c8390.chunk.css",
     "main.js": "/static/js/main.83fa1c92.chunk.js",
     "main.js.map": "/static/js/main.83fa1c92.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b5d1efea.js",
@@ -8,9 +8,9 @@
     "static/js/2.f1a75b1a.chunk.js": "/static/js/2.f1a75b1a.chunk.js",
     "static/js/2.f1a75b1a.chunk.js.map": "/static/js/2.f1a75b1a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bfe5a97eabaa358e63bd72c76241e627.js": "/precache-manifest.bfe5a97eabaa358e63bd72c76241e627.js",
+    "precache-manifest.c45a1a6ae58d48a45414fa20b4f061b1.js": "/precache-manifest.c45a1a6ae58d48a45414fa20b4f061b1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.0a670f1a.chunk.css.map": "/static/css/main.0a670f1a.chunk.css.map",
+    "static/css/main.484c8390.chunk.css.map": "/static/css/main.484c8390.chunk.css.map",
     "static/media/audio_alignment.png": "/static/media/audio_alignment.fc028c12.png",
     "static/media/blog.svg": "/static/media/blog.7f1cb658.svg",
     "static/media/books.svg": "/static/media/books.d270a999.svg",
@@ -32,7 +32,7 @@
   "entrypoints": [
     "static/js/runtime-main.b5d1efea.js",
     "static/js/2.f1a75b1a.chunk.js",
-    "static/css/main.0a670f1a.chunk.css",
+    "static/css/main.484c8390.chunk.css",
     "static/js/main.83fa1c92.chunk.js"
   ]
 }
