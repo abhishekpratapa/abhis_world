@@ -1,0 +1,44 @@
+.page:hover {
+  background: #ECEBEB;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.content {
+  box-sizing: border-box;
+  width: 305px;
+  height: 225px;
+  padding: 15px;
+}
+
+.imageContainer {
+  box-sizing: border-box;
+  position: relative;
+  width: 275px;
+  height: 125px;
+  background: #222222;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  overflow: hidden;
+}
+
+.image {
+  object-fit:contain;
+  max-width: 100%;
+}
+
+.title {
+  padding-top: 10px;
+  font-family: VarelaRound-Regular;
+  font-size: 18px;
+  color: #4A4A4A;
+  letter-spacing: 1.5px;
+}
+
+.date {
+  padding-top: 10px;
+  font-family: VarelaRound-Regular;
+  font-size: 12px;
+  color: #909090;
+  letter-spacing: 1px;
+}
