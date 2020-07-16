@@ -1,0 +1,53 @@
+.page {
+  height: 70px;
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.page:hover {
+  background: #D8D8D8;
+  cursor: pointer;
+}
+
+.text {
+  font-family: VarelaRound-Regular;
+  font-size: 18px;
+  color: #4A4A4A;
+  letter-spacing: 1.5px;
+  flex-grow: 1;
+  padding-top: 9px;
+  padding-left: 10px;
+}
+
+.image {
+  position: relative;
+  box-sizing:border-box;
+  width: 38px;
+  height: 38px;
+}
+
+.imageContainer {
+  position: absolute;
+  box-sizing:border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.imageContent {
+  box-sizing:border-box;
+  margin-top: 50%;
+  margin-left: 50%;
+}
+
+.imageSrc {
+  box-sizing:border-box;
+  margin-top: -100%;
+  margin-left: -100%;
+}
+
+.arrow {
+  padding-left: 20px;
+  padding-top: 11px;
+}

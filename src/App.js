@@ -1,46 +1,58 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-import LandingPage from './Pages/LandingPage';
-import LandingTransition from './Transitions/LandingTransition';
-import BlogPage from './Pages/BlogPage';
-import ArticlePage from './Pages/ArticlePage';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-import Articles from "./registry";
+import Ideas from './ideas';
+import Learning from './learning';
+import OneDayBuilds from './one_day_builds';
+import Projects from './projects';
+import ReadingList from './reading_list';
+
+import LandingPage from './Pages/LandingPage';
+import MenuPage from './Pages/MenuPage';
 
 import {
-  withRouter
-} from 'react-router-dom'
+  BuildArticleTemplate,
+  IdeaArticleTemplate,
+  LearningTopicArticleTemplate,
+  LearningTopicTemplate,
+  ReadingListArticleTemplate
+} from './data/ArticleTemplates';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  article_action(identifier) {
-    this.props.history.push(process.env.PUBLIC_URL + '/' + identifier);
-  }
-
-  reset_action() {
-    this.props.history.push(process.env.PUBLIC_URL + '/blog');
-  }
-
-  render() {
+class App extends React.Component {
+  render(){
     return (
-      <div className="App">
-        <BlogPage currentPage={this.props.currentPage}
-                  article_action={this.article_action.bind(this)}
-                  articles={Articles} />
-        <LandingPage currentPage={this.props.currentPage}
-                     reset_action={this.reset_action.bind(this)}/>
-        <LandingTransition currentPage={this.props.currentPage}/>
-        <ArticlePage currentPage={this.props.currentPage}
-                     reset_action={this.reset_action.bind(this)}
-                     identifier={this.props.identifier}
-                     article={Articles}/>
-      </div>
+      <Router>
+        <Switch>
+          <Route path={"/ideas"}
+                 component={(props) =>  <Ideas {...props}/>} />
+          <Route path={"/learning"}
+                 component={(props) => <Learning {...props}/>} />
+          <Route path={"/one_day_builds"}
+                 component={(props) =>  <OneDayBuilds {...props}/>} />
+          <Route path={"/projects"}
+                 component={(props) =>  <Projects {...props}/>} />
+          <Route path={"/reading_list"}
+                 component={(props) =>  <ReadingList {...props}/>} />
+          <Route path={"/menu"}
+                 component={(props) =>  <MenuPage {...props} />} />
+          <Route exact path={"/"}
+                 component={(props) => <LandingPage {...props} /> } />
+          <Route path={"/"}>
+            <div>
+              404 Error
+            </div>
+          </Route>
+        </Switch>
+      </Router>
     );
   }
 }
 
-export default withRouter(App);
+export default App;

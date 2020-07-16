@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="39px" viewBox="0 0 36 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-46.000000, -335.000000)">
+            <g id="Group-4" transform="translate(47.000000, 336.000000)">
+                <rect id="Rectangle" stroke="#979797" stroke-width="0.5" fill="#FFFFFF" x="0" y="0" width="30" height="37" rx="5"></rect>
+                <g id="Group-2" transform="translate(5.000000, 8.000000)" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <path d="M0.476190476,0.477272727 L19.5238095,0.477272727" id="Line-2"></path>
+                    <path d="M0.476190476,7.15909091 L19.5238095,7.15909091" id="Line-2"></path>
+                    <path d="M0.476190476,13.8409091 L19.5238095,13.8409091" id="Line-2"></path>
+                    <path d="M0.476190476,20.5227273 L12.8571429,20.5227273" id="Line-2"></path>
+                </g>
+                <g id="Group-3" transform="translate(27.136218, 21.753910) rotate(30.000000) translate(-27.136218, -21.753910) translate(24.136218, 8.753910)">
+                    <ellipse id="Oval" fill="#D82F22" cx="2.92682927" cy="2.92105263" rx="2.92682927" ry="2.92105263"></ellipse>
+                    <polygon id="Triangle" fill="#F2C594" transform="translate(2.926829, 22.394737) scale(1, -1) translate(-2.926829, -22.394737) " points="2.92682927 19.4736842 5.85365854 25.3157895 0 25.3157895"></polygon>
+                    <polygon id="Triangle" fill="#4A4A4A" transform="translate(2.926829, 24.342105) scale(1, -1) translate(-2.926829, -24.342105) " points="2.92682927 23.3684211 3.90243902 25.3157895 1.95121951 25.3157895"></polygon>
+                    <rect id="Rectangle" fill="#FFC612" x="0" y="2.92105263" width="5.85365854" height="16.5526316"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

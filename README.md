@@ -1,50 +1,68 @@
-# Abhi's World
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Hi my name is Abhishek and this is my personal blog. I got frustrated with
-worldpress so I decided to come up with my own implementation. This website
-serves to be an extension of myself, and who I am.
+## Available Scripts
 
-## What is this website written in?
+In the project directory, you can run:
 
-This website is written in the popular web framework `create-react-app`
-provided by Facebook. It was the easiest way to create UI and store articles.
+### `yarn start`
 
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## How does it work?
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-Articles are defined to be abstract classes and the template for one is located 
-in:
+### `yarn test`
 
-[ArticleTemplate.js](https://github.com/abhishekpratapa/abhis_world/blob/master/src/Articles/ArticleTemplate.js)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-This class contains `title`, `date`, `type` and `content`.
+### `yarn build`
 
-A registry located in:
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-[registry.js](https://github.com/abhishekpratapa/abhis_world/blob/master/src/registry.js)
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-This registry, contains the mappings of articles so that the rendering component
-can properly get the content it needs to render the blog.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## What is a type?
+### `yarn eject`
 
-A type is of:
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- `CREATIVE`
-- `TECH`
-- `LEARNING`
-- `EXISTENTIAL`
-- `PERSONAL`
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Each article has one of these types.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-## Why is your code so spaghetti?
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Shipping was the most important factor, unless I have a good enough reason to
-refactor then it's not worth it.
+## Learn More
 
-I think it's not worth it to put in the time right now to refactor. For me the
-end user-facing system works so that's enough. I may refactor if the blog gets 
-some traction/I keep up with it.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-I'd love to get ya'lls thoughts on it!
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

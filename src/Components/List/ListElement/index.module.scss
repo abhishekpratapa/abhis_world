@@ -1,0 +1,28 @@
+.page {
+  display: flex;
+  padding: 13px;
+  border-radius: 3px;
+}
+
+.page:hover {
+  background: #D8D8D8;
+  cursor: pointer;
+}
+
+.text {
+  font-family: VarelaRound-Regular;
+  font-size: 18px;
+  color: #4A4A4A;
+  letter-spacing: 1.5px;
+  flex-grow: 1;
+}
+
+.subtext {
+  font-family: VarelaRound-Regular;
+  font-size: 12px;
+  color: #7A7A7A;
+  letter-spacing: 1.5px;
+  text-align: right;
+  line-height: 18px;
+  padding-right: 20px;
+}

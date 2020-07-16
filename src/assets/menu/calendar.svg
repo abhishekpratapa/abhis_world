@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="38px" viewBox="0 0 33 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-48.000000, -153.000000)">
+            <g id="Group-24" transform="translate(46.000000, 153.000000)">
+                <rect id="Rectangle" x="0" y="0" width="38" height="38"></rect>
+                <g id="Group-7" transform="translate(2.000000, 1.000000)">
+                    <path d="M0.25,17.25 L0.25,35 C0.25,35.9664983 1.03350169,36.75 2,36.75 L31,36.75 C31.9664983,36.75 32.75,35.9664983 32.75,35 L32.75,17.25 L0.25,17.25 Z" id="Rectangle" stroke="#979797" stroke-width="0.5" fill="#FFFFFF"></path>
+                    <g id="Group-6">
+                        <path d="M31,3 C32.1045695,3 33,3.8954305 33,5 L33,18 L0,18 L0,5 C-1.3527075e-16,3.8954305 0.8954305,3 2,3 L31,3 Z M7.5,4 C6.67157288,4 6,4.67157288 6,5.5 C6,6.32842712 6.67157288,7 7.5,7 C8.32842712,7 9,6.32842712 9,5.5 C9,4.67157288 8.32842712,4 7.5,4 Z M25.5,4 C24.6715729,4 24,4.67157288 24,5.5 C24,6.32842712 24.6715729,7 25.5,7 C26.3284271,7 27,6.32842712 27,5.5 C27,4.67157288 26.3284271,4 25.5,4 Z" id="Combined-Shape" fill="#E2252D"></path>
+                        <g id="Group-5" transform="translate(7.000000, 0.000000)" stroke="#979797" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M0.5,0.5 L0.5,5.5" id="Line-3"></path>
+                            <path d="M18.5,0.5 L18.5,5.5" id="Line-3"></path>
+                        </g>
+                    </g>
+                    <text id="DAY" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="9" font-weight="normal" letter-spacing="0.75" fill="#FFFFFF">
+                        <tspan x="6.44970703" y="15">DAY</tspan>
+                    </text>
+                    <text id="1" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="12" font-weight="normal" letter-spacing="1" fill="#4A4A4A">
+                        <tspan x="12.4345703" y="31">1</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,39 +1,42 @@
 import React, { Component } from 'react';
-import './index.css';
+import style from './index.module.scss';
 
-import logo from './logo.svg';
+import EnterButton from "../../Components/EnterButton";
+import SocialMedia from "../../Components/SocialMedia";
 
-import EnterButton from "./EnterButton";
-import SocialMedia from "./SocialMedia";
+import logo from '../../assets/logo.svg';
+
+import Main from '../../logos/Main';
 
 class LandingPage extends Component {
-  render() {
-    var LandingPageClassName = (this.props.currentPage == 0)? "Landing_Page":"Landing_Page_Animated";
-    var LandingPageLogoContainerClassName = (this.props.currentPage == 0)? "LandingPageLogoContainer":"LandingPageLogoContainer LandingPageLogoContainer_Animated";
-    var LandingPageSocialMediaContainerClassName = (this.props.currentPage == 0)? "LandingPageSocialMediaContainer":"LandingPageSocialMediaContainer LandingPageSocialMediaContainer_Animated";
+  enter_page() {
+    this.props.history.push('/menu');
+  }
 
+  render() {
+    console.log(this.props);
     return (
-      <div className={LandingPageClassName}>
+      <div className={style.page}>
         {/* This is the middle_container */}
-        <div className={"LandingPageContainer"}>
+        <div className={style.centered_modal}>
           {/* This is the title */}
-          <div className={"LandingPageTitle"}>
+          <div className={style.title}>
             Abhi's World
           </div>
 
           {/* This is the logo */}
-          <div className={LandingPageLogoContainerClassName}>
-            <img src={logo} />
+          <div className={style.logo}>
+            <Main />
           </div>
 
           {/* This is the enter button */}
-          <div className={"LandingPageEnterButtonContainer"}>
-            <EnterButton  reset_action={this.props.reset_action.bind(this)} />
+          <div className={style.button}>
+            <EnterButton onClick={this.enter_page.bind(this)}/>
           </div>
 
           {/* This is the social actions button */}
-          <div className={LandingPageSocialMediaContainerClassName}>
-            <SocialMedia/>
+          <div className={style.social_media}>
+            <SocialMedia />
           </div>
         </div>
       </div>

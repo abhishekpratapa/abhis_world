@@ -1,0 +1,20 @@
+.page {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.content {
+  box-sizing: border-box;
+  max-width: 780px;
+  padding-bottom: 80px;
+  height: 100%;
+  margin: auto;
+  overflow-y: scroll;
+}

@@ -1,0 +1,81 @@
+/* Keyframes for the fade-in */
+@-webkit-keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@-moz-keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+@keyframes fadeIn {
+  from { opacity:0; }
+  to { opacity:1; }
+}
+
+/* Keyframes for the fade-in */
+@-webkit-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@-moz-keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+@keyframes fadeOut { from { opacity:1; } to { opacity:0; } }
+
+@keyframes dash {
+  to { stroke-dashoffset: 0; }
+}
+
+.stroke_line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear forwards;
+}
+
+.component{
+  position: relative;
+  width: 186px;
+  height: 212px;
+  overflow: hidden;
+}
+
+.svg_container{
+  position: absolute;
+  left: 0px;
+  top: 3px;
+
+  -webkit-animation:fadeOut ease-in 1;
+  -moz-animation:fadeOut ease-in 1;
+  animation:fadeOut ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: .75s;
+  -moz-animation-delay: .75s;
+  animation-delay: .75s;
+}
+
+.logo_container{
+  opacity: 0.0;
+  position: absolute;
+  z-index: 999;
+
+  -webkit-animation:fadeIn ease-in 1;
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+
+  -webkit-animation-delay: .75s;
+  -moz-animation-delay: .75s;
+  animation-delay: .75s;
+}
