@@ -28,7 +28,7 @@ import {
 class App extends React.Component {
   render(){
     return (
-      <Router>
+      <Router path={ process.env.PUBLIC_URL }>
         <Switch>
           <Route path={"/ideas"}
                  component={(props) =>  <Ideas {...props}/>} />

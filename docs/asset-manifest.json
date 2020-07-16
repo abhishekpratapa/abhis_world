@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.484c8390.chunk.css",
-    "main.js": "/static/js/main.83fa1c92.chunk.js",
-    "main.js.map": "/static/js/main.83fa1c92.chunk.js.map",
+    "main.js": "/static/js/main.bec0b94c.chunk.js",
+    "main.js.map": "/static/js/main.bec0b94c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b5d1efea.js",
     "runtime-main.js.map": "/static/js/runtime-main.b5d1efea.js.map",
     "static/js/2.f1a75b1a.chunk.js": "/static/js/2.f1a75b1a.chunk.js",
     "static/js/2.f1a75b1a.chunk.js.map": "/static/js/2.f1a75b1a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c45a1a6ae58d48a45414fa20b4f061b1.js": "/precache-manifest.c45a1a6ae58d48a45414fa20b4f061b1.js",
+    "precache-manifest.720cf54dadacdac998a2a0777dc8e41e.js": "/precache-manifest.720cf54dadacdac998a2a0777dc8e41e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.484c8390.chunk.css.map": "/static/css/main.484c8390.chunk.css.map",
     "static/media/audio_alignment.png": "/static/media/audio_alignment.fc028c12.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.b5d1efea.js",
     "static/js/2.f1a75b1a.chunk.js",
     "static/css/main.484c8390.chunk.css",
-    "static/js/main.83fa1c92.chunk.js"
+    "static/js/main.bec0b94c.chunk.js"
   ]
 }
