@@ -49,8 +49,6 @@ class LandingPage extends Component {
             <EnterButton onClick={this.enter_page.bind(this)}/>
           </div>
 
-
-
           {/* This is the social actions button */}
           <div className={style.social_media}>
             <SocialMedia />
