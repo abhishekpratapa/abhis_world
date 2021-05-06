@@ -22,8 +22,8 @@ class OneDayBuilds extends React.Component {
 
   addRoutes(path) {
     return OneDayBuildArticles.map((x) => 
-      <Route path={`${path}/${x.extension()}`}
-             key={`${path}/${x.extension()}`}
+      <Route path={`${path}/x.extension()`}
+             key={`${path}/x.extension()`}
              component={(props) =>  <OneDayBuildsContainer {...props}
                                                            path={path}
                                                            article={x} /> } />
