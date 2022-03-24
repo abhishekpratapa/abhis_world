@@ -25,7 +25,7 @@ class Home extends Component {
     return (
       <div className={style.HomePage}>
         {this.state.selected < 0 && <Particles />}
-        <div style={opacity}>
+        <div style={opacity} className={style.SelectedContainer}>
           <Selected selected={(this.state.selected >=0)?this.state.selected:0}/>
         </div>
         <div className={style.Selectors}>
@@ -54,7 +54,7 @@ class Home extends Component {
             onMouseOut={() => {
               this.setState({selected: -1})
             }}>
-            INSTAGRAM
+            MEM
           </div>
           <div
             onMouseEnter={() => {

@@ -32,6 +32,10 @@
     
 }
 
+.SelectedContainer {
+    transition: opacity 0.5s;
+}
+
 .Selectors > div {
     color: white;
     opacity: 0.5;

@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import style from './index.module.scss';
+import reset from './assets/reset.png'
+import mem from './assets/mem.png'
 
 const FRAGMENT: string = `
 #ifdef GL_ES
@@ -31,10 +33,10 @@ var canvas, gl: any,
     var id;
     var isScroll = false;
 
-    var imageURLArr = ["https://s3-us-west-2.amazonaws.com/s.cdpn.io/13842/pinterest.png",
+    var imageURLArr = [reset,
                     "https://s3-us-west-2.amazonaws.com/s.cdpn.io/13842/facebook.png",
                    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/13842/google.png",
-                   "https://s3-us-west-2.amazonaws.com/s.cdpn.io/13842/instgram.png",
+                   mem,
                    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/13842/twitter.png", 
                    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/13842/github.png",
 
