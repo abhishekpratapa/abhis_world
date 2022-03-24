@@ -1,0 +1,19 @@
+.HomePage {
+    position: relative;
+}
+
+.Title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8em;
+    color: rgb(174, 174, 215);
+    opacity: 0.4;
+    transition: opacity 0.2s;
+    cursor: pointer;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.Title:hover {
+    opacity: 1.0;
+}
